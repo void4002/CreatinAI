@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section>
       <div className='container px-4 py-2'>
-        <div className="hero h-96 md:h-[500px] rounded-box overflow-hidden" style={{ backgroundImage: `url("https://wallpaperaccess.com/full/1398313.jpg")` }}>
+        <div className="hero h-96 md:h-[700px] rounded-box overflow-hidden" style={{ backgroundImage: `url("https://wallpaperaccess.com/full/1398313.jpg")` }}>
           <div className="hero-overlay bg-opacity-60 bg-blue"></div>
           <div className="hero-content text-center text-secondary-content">
             <div className="max-w-lg">

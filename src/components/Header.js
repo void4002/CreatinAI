@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const THEMES = ["light", "dark"];
 
@@ -24,22 +25,18 @@ export default function Header() {
                 <i className='bi bi-list text-2xl'></i>
               </label>
               <ul tabIndex={0} className="dropdown-content mt-1 w-52 menu menu-compact p-2 bg-base-200 shadow rounded-box">
-                <li><a href="/#">Home</a></li>
-                <li><a href="/#">Services</a></li>
-                <li><a href="/#">About</a></li>
-                <li><a href="/#">Work</a></li>
-                <li><a href="/#">Case Study</a></li>
+              <li><Link to="home" spy={true} smooth={true} offset={50} duration={500}>Home</Link></li>
+              <li><Link to="services" spy={true} smooth={true} offset={50} duration={500}>Activites</Link></li>
+              <li><Link to="events" spy={true} smooth={true} offset={50} duration={500}>Events</Link></li>
               </ul>
             </div>
             <a className="btn btn-ghost normal-case text-2xl" href='/#'>CreatinAI</a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0 font-medium">
-              <li><a href="/#">Home</a></li>
-              <li><a href="/#">Events</a></li>
-              <li><a href="/#">Members</a></li>
-              <li><a href="/#">Projects</a></li>
-              <li><a href="/#">Workshops</a></li>
+              <li><Link to="home" spy={true} smooth={true} offset={50} duration={500}>Home</Link></li>
+              <li><Link to="services" spy={true} smooth={true} offset={50} duration={500}>Activites</Link></li>
+              <li><Link to="events" spy={true} smooth={true} offset={50} duration={500}>Events</Link></li>
             </ul>
           </div>
           <div className="navbar-end">
@@ -49,7 +46,7 @@ export default function Header() {
               </label>
               <ul tabIndex={0} className="dropdown-content mt-1 w-52 max-h-96 overflow-y-auto menu menu-compact p-2  bg-base-200 shadow rounded-box">
                 {
-                  THEMES.map((theme, i) => <li key={theme + i}><button data-set-theme={theme} onClick={handleThemeChange} className="font-medium capitalize">{i + 1 + '. ' + theme}</button></li>)
+                  THEMES.map((theme, i) => <li key={theme + i}><button data-set-theme={theme} onClick={handleThemeChange} className="font-medium capitalize">{theme}</button></li>)
                 }
               </ul>
             </div>

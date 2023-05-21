@@ -11,10 +11,12 @@ function Layout() {
   return (
     <div>
       <>
-    <Header />
-    <Hero/>
-    <Services/>
-    <Testimonial/>
+      <Header/>
+    <section id='home'>
+      <Hero/>
+    </section>
+    <section id='services'><Services/></section>
+    <section id='events'><Testimonial/></section>
     <CTA/>
     <Footer />
     </>
