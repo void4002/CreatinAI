@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CreatinAI/static/css/main.f5269ca3.css",
+    "main.js": "/CreatinAI/static/js/main.dd403ce2.js",
+    "index.html": "/CreatinAI/index.html",
+    "main.f5269ca3.css.map": "/CreatinAI/static/css/main.f5269ca3.css.map",
+    "main.dd403ce2.js.map": "/CreatinAI/static/js/main.dd403ce2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5269ca3.css",
+    "static/js/main.dd403ce2.js"
+  ]
+}
