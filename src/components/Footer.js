@@ -12,11 +12,8 @@ export default function Footer() {
             <p>© 2023 VJcreatinAI, Inc. All rights reserved.</p>
           </div>
           <div className="grid grid-flow-col gap-4">
-            <a className='link link-secondary' href='#!'><i className='bi bi-facebook text-xl'></i></a>
-            <a className='link link-secondary' href='#!'><i className='bi bi-instagram text-xl'></i></a>
-            <a className='link link-secondary' href='#!'><i className='bi bi-twitter text-xl'></i></a>
-            <a className='link link-secondary' href='#!'><i className='bi bi-github text-xl'></i></a>
-            <a className='link link-secondary' href='#!'><i className='bi bi-dribbble text-xl'></i></a>
+            <a className='link link-secondary' href='https://www.instagram.com/creatin_ai/'><i className='bi bi-instagram text-xl'></i></a>
+            <a className='link link-secondary' href='https://www.linkedin.com/in/creatin-ai-baaa96277/'><i className='bi bi-linkedin text-xl'></i></a>
           </div>
         </div>
       </div>

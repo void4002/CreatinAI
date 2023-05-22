@@ -13,7 +13,7 @@ export default function Services() {
               <i className='bi bi-book text-4xl'></i>
               <h2 className="card-title">Training Classes</h2>
               <p>
-                This is a wider card with <br className='hidden xl:inline' />supporting text below as a <br className='hidden xl:inline' /> natural content.
+                Classes taken by us about<br className='hidden xl:inline' />AI technologies.<br className='hidden xl:inline' /> 
               </p>
             </div>
           </div>
@@ -23,7 +23,7 @@ export default function Services() {
               <i className='bi bi-robot text-4xl'></i>
               <h2 className="card-title">Real time projects</h2>
               <p>
-                This is a wider card with <br className='hidden xl:inline' />supporting text below as a <br className='hidden xl:inline' /> natural content.
+               AI related guided projects<br className='hidden xl:inline' />through Github.<br className='hidden xl:inline' /> 
               </p>
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function Services() {
               <i className='bi bi-pencil-square text-4xl'></i>
               <h2 className="card-title">Research papers</h2>
               <p>
-                This is a wider card with <br className='hidden xl:inline' />supporting text below as a <br className='hidden xl:inline' /> natural content.
+                Monthly research papers<br className='hidden xl:inline' />related to AI.<br className='hidden xl:inline' /> 
               </p>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function Services() {
               <i className='bi bi-laptop text-4xl'></i>
               <h2 className="card-title">Workshops</h2>
               <p>
-                This is a wider card with <br className='hidden xl:inline' />supporting text below as a <br className='hidden xl:inline' /> natural content.
+                Real time experience with<br className='hidden xl:inline' />different technologies.<br className='hidden xl:inline' /> 
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Services() {
               <i className='bi bi-newspaper text-4xl'></i>
               <h2 className="card-title">Updates on AI</h2>
               <p>
-                This is a wider card with <br className='hidden xl:inline' />supporting text below as a <br className='hidden xl:inline' /> natural content.
+                Day to day changes in field of AI<br className='hidden xl:inline' />are given here.<br className='hidden xl:inline' /> 
               </p>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function Services() {
               <i className='bi bi-calendar-event text-4xl'></i>
               <h2 className="card-title">Events</h2>
               <p>
-                This is a wider card with <br className='hidden xl:inline' />supporting text below as a <br className='hidden xl:inline' /> natural content.
+                Many events related to<br className='hidden xl:inline' />AI are conducted.<br className='hidden xl:inline' />
               </p>
             </div>
           </div>
