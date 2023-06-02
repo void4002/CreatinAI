@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function CTA() {
   return (
+    <>
     <section className='py-12 md:py-24'>
       <div className='container px-4'>
         <div className='flex flex-col md:flex-row justify-center items-center gap-6 text-center md:text-start'>
@@ -9,5 +10,6 @@ export default function CTA() {
         </div>
       </div>
     </section>
+    </>
   )
 }
