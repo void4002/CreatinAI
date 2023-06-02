@@ -17,7 +17,7 @@ export default function Header() {
               <li><Link to='/events'>Events</Link></li>
               </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-2xl" href='/#'>CreatinAI</a>
+            <Link to='/' className="btn btn-ghost normal-case text-2xl">CreatinAI</Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0 font-medium">
