@@ -7,14 +7,12 @@ import CTA from '../components/CTA';
 
 function Layout() {
   return (
-    <div>
       <>
       <Header/>
       <Hero/>
     <CTA/>
     <Footer />
     </>
-    </div>
   );
 }
 
