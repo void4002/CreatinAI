@@ -21,9 +21,9 @@ export default function Header() {
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0 font-medium">
-            <li><Link to='/'>Home</Link></li>
-              <li><Link to='/services'>Activites</Link></li>
-              <li><Link to='/events'>Events</Link></li>
+            <li><Link to='/' className='rounded'>Home</Link></li>
+              <li><Link to='/services' className='rounded'>Activites</Link></li>
+              <li><Link to='/events' className='rounded'>Events</Link></li>
             </ul>
           </div>
           <div className="navbar-end">

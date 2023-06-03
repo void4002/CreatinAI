@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className='bg-base-200 text-base-content'>
+    <footer className='bg-base-200 text-base-content justify-between'>
       <div className='container px-4'>
         <div className="footer py-2">
           Warning! Website under progress
