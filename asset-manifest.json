@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CreatinAI/static/css/main.82feed5e.css",
-    "main.js": "/CreatinAI/static/js/main.905c719e.js",
+    "main.js": "/CreatinAI/static/js/main.19cf45a9.js",
     "static/media/bootstrap-icons.woff?": "/CreatinAI/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/CreatinAI/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/CreatinAI/index.html",
     "main.82feed5e.css.map": "/CreatinAI/static/css/main.82feed5e.css.map",
-    "main.905c719e.js.map": "/CreatinAI/static/js/main.905c719e.js.map"
+    "main.19cf45a9.js.map": "/CreatinAI/static/js/main.19cf45a9.js.map"
   },
   "entrypoints": [
     "static/css/main.82feed5e.css",
-    "static/js/main.905c719e.js"
+    "static/js/main.19cf45a9.js"
   ]
 }
