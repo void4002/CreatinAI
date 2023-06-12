@@ -4,6 +4,7 @@ import App from './App';
 import Activities from './pages/Activities';
 import Events from './pages/Events';
 import Winners from './pages/Winners';
+import Intake from './pages/Intake';
 import {
     createHashRouter,
     RouterProvider,
@@ -26,7 +27,10 @@ const router=createHashRouter([
             path: "winner",
             element: <Winners/>,
         },
-
+        {
+            path: "intake",
+            element: <Intake/>,
+        },
 ])
   
 

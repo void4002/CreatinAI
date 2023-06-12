@@ -15,6 +15,7 @@ export default function Header() {
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/services'>Activites</Link></li>
               <li><Link to='/events'>Events</Link></li>
+              <li><Link to='/intake'>Register</Link></li>
               </ul>
             </div>
             <Link to='/' className="btn btn-ghost normal-case text-2xl">CreatinAI</Link>
@@ -24,6 +25,7 @@ export default function Header() {
             <li><Link to='/' className='rounded'>Home</Link></li>
               <li><Link to='/services' className='rounded'>Activites</Link></li>
               <li><Link to='/events' className='rounded'>Events</Link></li>
+              <li><Link to='/intake' className='rounded'>Register</Link></li>
             </ul>
           </div>
           <div className="navbar-end">
