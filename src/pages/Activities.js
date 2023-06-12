@@ -5,6 +5,8 @@ import Footer from '../components/Footer';
 export default function Services() {
   return (
     <>
+    <div className="flex flex-col min-h-screen">
+    <div className="flex-grow">
     <Header/>
     <section className='py-6 md:py-16'>
       <div className='container px-4'>
@@ -73,7 +75,9 @@ export default function Services() {
         </div>
       </div>
     </section>
+    </div>
     <Footer/>
+    </div>
     </>
   )
 }

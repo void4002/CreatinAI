@@ -6,6 +6,8 @@ import Footer from '../components/Footer'
 export default function Testimonial()  {
   return (
     <>
+    <div className="flex flex-col min-h-screen">
+    <div className="flex-grow">
     <Header/>
     <section className='bg-neutral'>
         <div className='container py-4'>
@@ -22,7 +24,9 @@ export default function Testimonial()  {
   </div>
 </div>
       </section>
+      </div>
       <Footer/>
+      </div>
       </>
   )
 }

@@ -25,7 +25,7 @@ export default function Hero() {
       )}
     </PageVisibility>
       </div>
-      <div className='container px-4 py-5'>
+      <div className='container-fluid px-4 py-5'>
         <div className="hero h-[700px] rounded-box overflow-hidden" style={{ backgroundImage: `url("https://wallpaperaccess.com/full/1398313.jpg")` ,width: '100%'}}>
           <div className="hero-overlay bg-opacity-60 bg-blue"></div>
           <div className="hero-content text-center text-secondary-content">

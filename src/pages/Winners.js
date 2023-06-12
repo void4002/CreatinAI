@@ -5,6 +5,8 @@ import Footer from '../components/Footer';
 export default function Hero() {
   return (
     <>
+    <div className="flex flex-col min-h-screen">
+    <div className="flex-grow">
     <Header/>
     <section className='py-6 md:py-16'>
       <div className='container px-4'>
@@ -33,7 +35,9 @@ Vamshi krishna-21071A6260</p>
         </div>
       </div>
     </section>
+    </div>
     <Footer/>
+    </div>
     </>
   )
 }
