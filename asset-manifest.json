@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CreatinAI/static/css/main.1e33ce5e.css",
-    "main.js": "/CreatinAI/static/js/main.36087a2b.js",
+    "main.css": "/CreatinAI/static/css/main.82feed5e.css",
+    "main.js": "/CreatinAI/static/js/main.905c719e.js",
     "static/media/bootstrap-icons.woff?": "/CreatinAI/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/CreatinAI/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/CreatinAI/index.html",
-    "main.1e33ce5e.css.map": "/CreatinAI/static/css/main.1e33ce5e.css.map",
-    "main.36087a2b.js.map": "/CreatinAI/static/js/main.36087a2b.js.map"
+    "main.82feed5e.css.map": "/CreatinAI/static/css/main.82feed5e.css.map",
+    "main.905c719e.js.map": "/CreatinAI/static/js/main.905c719e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e33ce5e.css",
-    "static/js/main.36087a2b.js"
+    "static/css/main.82feed5e.css",
+    "static/js/main.905c719e.js"
   ]
 }
