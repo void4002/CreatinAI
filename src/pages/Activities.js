@@ -9,7 +9,7 @@ export default function Services() {
     <div className="flex-grow">
     <Header/>
     <section className='py-6 md:py-16'>
-      <div className='container px-4'>
+      <div className='container-fluid mx-auto px-4'>
         <div className='text-center'>
           <h2 className='text-3xl sm:text-5xl font-bold mb-4'>Activites</h2>
         </div>

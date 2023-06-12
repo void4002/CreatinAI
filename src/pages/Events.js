@@ -10,7 +10,7 @@ export default function Testimonial()  {
     <div className="flex-grow">
     <Header/>
     <section className='bg-neutral'>
-        <div className='container py-4'>
+        <div className='container-fluid mx-auto py-4'>
           <div className='text-center text-white'>
             <h2 className='text-3xl sm:text-5xl font-bold mb-4'>Events</h2>
           </div>
